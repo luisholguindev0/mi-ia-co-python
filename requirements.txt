@@ -1,0 +1,25 @@
+# Core Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+httpx>=0.26.0
+
+# LangGraph y LangChain
+langgraph>=0.2.0
+langchain-core>=0.2.0
+
+# Database
+supabase>=2.0.0
+python-dateutil>=2.8.0
+
+# Redis para checkpointing
+redis>=5.0.0
+
+# Google Calendar (opcional)
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.2.0
+
+# Logging
+structlog>=24.1.0

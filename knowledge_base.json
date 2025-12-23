@@ -1,0 +1,136 @@
+{
+    "empresa": {
+        "nombre": "Mi IA Colombia",
+        "descripcion": "AI Growth & Automation Partner - Desarrollamos sistemas de IA personalizados para empresas colombianas",
+        "ubicacion": "Barranquilla, Colombia",
+        "website": "https://mi-ia-co-blush.vercel.app"
+    },
+    "servicios": [
+        {
+            "id": "sdr_whatsapp",
+            "nombre": "Agente SDR WhatsApp",
+            "descripcion": "IA que cualifica leads, extrae información y agenda citas automáticamente 24/7",
+            "precio_rango": "$10M - $30M COP",
+            "tiempo_implementacion": "4-8 semanas",
+            "beneficios": [
+                "Respuestas instantáneas 24/7",
+                "Cualificación automática de leads",
+                "Agendamiento sin intervención humana",
+                "Extracción de datos estructurados"
+            ]
+        },
+        {
+            "id": "app_web",
+            "nombre": "App Web Personalizada",
+            "descripcion": "Desarrollo web de alto rendimiento con Next.js y React",
+            "precio_rango": "$15M - $100M COP",
+            "tiempo_implementacion": "6-16 semanas",
+            "beneficios": [
+                "Diseño moderno y profesional",
+                "Optimizado para SEO",
+                "Panel de administración",
+                "Integraciones personalizadas"
+            ]
+        },
+        {
+            "id": "automatizacion",
+            "nombre": "Automatización de Procesos",
+            "descripcion": "Automatización end-to-end de procesos empresariales con IA",
+            "precio_rango": "$8M - $50M COP",
+            "tiempo_implementacion": "4-12 semanas",
+            "beneficios": [
+                "Reducción de tareas manuales",
+                "Mayor eficiencia operativa",
+                "Menos errores humanos",
+                "Ahorro de costos a largo plazo"
+            ]
+        }
+    ],
+    "objeciones": {
+        "precio": {
+            "respuesta": "El ROI se ve en los primeros 3 meses. Un agente IA trabaja 24/7 por una fracción del costo de un SDR humano - estamos hablando de un ahorro del 70% o más.",
+            "seguimiento": "¿Cuánto inviertes actualmente en personal de ventas o atención?"
+        },
+        "confianza": {
+            "respuesta": "Tenemos casos de éxito con empresas colombianas del tu mismo sector. Además, ofrecemos garantía de satisfacción - si en 30 días no ves resultados, te devolvemos tu inversión.",
+            "seguimiento": "¿Qué te generaría más confianza para dar el siguiente paso?"
+        },
+        "chatbot": {
+            "respuesta": "Esto no es un chatbot simple. Es un sistema inteligente que cualifica, extrae datos, califica con framework BANT, y agenda automáticamente. Entiende contexto y tiene conversaciones naturales.",
+            "seguimiento": "¿Has tenido malas experiencias con chatbots antes?"
+        },
+        "tiempo": {
+            "respuesta": "Cada día que pasa sin automatizar tus ventas es dinero que pierdes. ¿Cuántos leads se te escapan por no responder a tiempo?",
+            "seguimiento": "¿Hay algo específico que te impide empezar ahora?"
+        },
+        "competencia": {
+            "respuesta": "A diferencia de otras soluciones, nosotros personalizamos todo para tu negocio específico. No es una plantilla genérica - es un sistema hecho a la medida.",
+            "seguimiento": "¿Qué funcionalidades específicas estás buscando?"
+        }
+    },
+    "industrias_target": [
+        {
+            "nombre": "Restaurantes",
+            "dolores_comunes": [
+                "Perder reservas por respuesta lenta",
+                "Gestionar picos de demanda",
+                "Fidelización de clientes"
+            ],
+            "caso_uso": "Automatización de reservas y atención 24/7"
+        },
+        {
+            "nombre": "Legal",
+            "dolores_comunes": [
+                "Filtrar casos no rentables",
+                "Responder consultas iniciales",
+                "Agendar citas con abogados"
+            ],
+            "caso_uso": "Cualificación de casos y agendamiento automático"
+        },
+        {
+            "nombre": "Salud",
+            "dolores_comunes": [
+                "Gestión de citas",
+                "Recordatorios a pacientes",
+                "Responder preguntas frecuentes"
+            ],
+            "caso_uso": "Agendamiento de consultas y seguimiento"
+        },
+        {
+            "nombre": "Retail",
+            "dolores_comunes": [
+                "Atención al cliente 24/7",
+                "Gestión de pedidos",
+                "Soporte post-venta"
+            ],
+            "caso_uso": "Asistente de compras y soporte"
+        },
+        {
+            "nombre": "Servicios B2B",
+            "dolores_comunes": [
+                "Cualificación de leads",
+                "Ciclos de venta largos",
+                "Seguimiento de prospects"
+            ],
+            "caso_uso": "SDR virtual para cualificación y agendamiento"
+        }
+    ],
+    "preguntas_frecuentes": [
+        {
+            "pregunta": "¿Cuánto tiempo toma implementar?",
+            "respuesta": "Dependiendo de la complejidad, entre 4 y 12 semanas. Un agente SDR básico puede estar listo en 4-6 semanas."
+        },
+        {
+            "pregunta": "¿Funciona con mi CRM actual?",
+            "respuesta": "Sí, nos integramos con HubSpot, Salesforce, Pipedrive y la mayoría de CRMs populares. También podemos conectar con Google Sheets si prefieres algo más simple."
+        },
+        {
+            "pregunta": "¿Qué pasa si el bot no sabe responder?",
+            "respuesta": "Tiene guardrails configurados para detectar situaciones complejas y puede escalar a un humano cuando sea necesario."
+        },
+        {
+            "pregunta": "¿Cómo se entrena para mi negocio?",
+            "respuesta": "Configuramos el agente con tu información de productos, servicios, precios y objeciones comunes. Luego lo afinamos con conversaciones reales."
+        }
+    ]
+}
