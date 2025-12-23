@@ -7,10 +7,17 @@ from fastapi.responses import PlainTextResponse
 import json
 import structlog
 
-from .config import settings
-from .fsm import process_message
-from .integrations import whatsapp_client
-from .guardrails import guardrails, pii_detector
+try:
+    from src.config import settings
+    from src.fsm import process_message
+    from src.integrations import whatsapp_client
+    from src.guardrails import guardrails, pii_detector
+except ImportError:
+    # Fallback for local dev/relative context
+    from .config import settings
+    from .fsm import process_message
+    from .integrations import whatsapp_client
+    from .guardrails import guardrails, pii_detector
 
 # Configurar logging estructurado
 structlog.configure(
